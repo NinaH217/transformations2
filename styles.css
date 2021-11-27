@@ -1,0 +1,129 @@
+/* TRANSFORMATIONS */
+
+
+
+
+/* BASE STYLES
+------------------------------------- */
+body {
+    margin: 0;
+    padding: 0.5em;
+    background-color: rgb(84, 194, 209);
+    color: black;
+    font-family: futura;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+text-align: center;
+color: #0d0faf;
+}
+
+
+/* NAVIGATION
+------------------------------------- */
+nav {
+
+}
+
+nav a {
+    color: #ac3e94;
+    margin-inline: 1em;
+    
+
+}
+
+nav a:hover {
+
+}
+
+
+
+
+
+/* HOME PAGE
+------------------------------------- */
+main {
+    
+}
+
+.transformation_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;
+    max-width: 50em;
+    margin: 0.5em auto;
+}
+
+.transformation_item1 {
+    color: rgb(196, 19, 19);
+    max-width: 80%;
+    border: solid 2px red;
+    background-color: slategrey;
+    padding: 0.5em;
+}
+
+.transformation_item2 {
+    color:#edcb4a;
+    max-width: 80%;
+    border: solid 7px rgb(52, 116, 66);
+    background-color: slategrey;
+    padding: 2em;
+    text-align: center;
+    
+}
+
+.transformation_item3 {
+    color:#5f12da;
+    max-width: 80%;
+    border: solid 4px rgb(91, 26, 212);
+    background-color: slategrey;
+    text-align: right;
+    padding: 1em;
+}
+
+.transformation_item4 {
+    color:#e9eee3;
+    max-width: 80%;
+    border: solid 3px rgb(172, 235, 71);
+    background-color: slategrey;
+    text-align: center;
+    padding: 0.5em;
+
+}
+
+.background {
+    opacity: 60%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: fit-content;
+    z-index: -1;
+}
+
+/* GALLERY PAGE
+------------------------------------- */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;
+    max-width: 50em;
+    margin: 0.5em auto;
+}
+
+.gallery-item {
+    margin: 1em;
+    padding: 0.5em;
+    border: 10px solid rgb(228, 225, 57);
+    display: grid;
+    align-items: end;
+    background: rgb(233, 152, 45);
+}
+
+
+
